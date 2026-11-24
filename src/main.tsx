@@ -48,6 +48,55 @@ const mainNames: Record<string, L> = {
   "Qie.Mix": { zh: "Qie.Mix 万般随侬", en: "Qie.Mix" },
   Shared: { zh: "共享配套产品", en: "Pastries, sets & gifts" },
 };
+function NavIcon({ name }: { name: string }) {
+  const paths: Record<string, React.ReactNode> = {
+    home: (
+      <>
+        <path d="m3 10 9-7 9 7v10H3z" />
+        <path d="M9 20v-7h6v7" />
+      </>
+    ),
+    menu: (
+      <>
+        <path d="M4 7h13v8a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6z" />
+        <path d="M17 9h2a3 3 0 0 1 0 6h-2M5 3h11" />
+      </>
+    ),
+    mix: (
+      <>
+        <path d="m12 2 1.7 6.3L20 10l-6.3 1.7L12 18l-1.7-6.3L4 10l6.3-1.7zM19 17l.6 2.4L22 20l-2.4.6L19 23l-.6-2.4L16 20l2.4-.6z" />
+      </>
+    ),
+    culture: (
+      <>
+        <path d="M12 20c-3-2-6-2-9-2V4c3 0 6 0 9 2 3-2 6-2 9-2v14c-3 0-6 0-9 2zM12 6v14" />
+      </>
+    ),
+    orders: (
+      <>
+        <path d="M5 3h14v18l-3-2-4 2-4-2-3 2zM8 8h8M8 12h8M8 16h5" />
+      </>
+    ),
+    cart: (
+      <>
+        <path d="M4 8h16l-1 13H5zM8 9V6a4 4 0 0 1 8 0v3" />
+      </>
+    ),
+  };
+  return (
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      {paths[name]}
+    </svg>
+  );
+}
 function App() {
   const [lang, setLang] = useState<Lang>(() => load("qie-lang", "zh"));
   const t = (k: string) => (lang === "zh" ? zh : en)[k as keyof typeof zh] || k;
@@ -72,6 +121,7 @@ function App() {
   const [query, setQuery] = useState("");
   const [max, setMax] = useState(120);
   const [tag, setTag] = useState("all");
+  const [filtersOpen, setFiltersOpen] = useState(false);
   const [qty, setQty] = useState(1);
   const [temp, setTemp] = useState("");
   const [sweet, setSweet] = useState("");
@@ -372,21 +422,24 @@ function App() {
           </div>
         ))
       )}
-      <div className="section-head">
-        <b>{t("total")}</b>
-        <strong>¥{total(cart).toFixed(2)}</strong>
-      </div>
-      <button
-        className="primary wide"
-        disabled={!cart.length}
-        onClick={() => {
-          setCartOpen(false);
-          setCheckout(true);
-        }}
-      >
-        {t("checkout")}
-      </button>
-      <p className="hint">{t("checkoutHint")}</p>
+      {cart.length > 0 && (
+        <>
+          <div className="section-head">
+            <b>{t("total")}</b>
+            <strong>¥{total(cart).toFixed(2)}</strong>
+          </div>
+          <button
+            className="primary wide"
+            onClick={() => {
+              setCartOpen(false);
+              setCheckout(true);
+            }}
+          >
+            {t("checkout")}
+          </button>
+          <p className="hint">{t("checkoutHint")}</p>
+        </>
+      )}
     </>
   );
   const shown = products.filter(
@@ -411,7 +464,7 @@ function App() {
           </span>
           <small>SHANGHAI COFFEE</small>
         </a>
-        <nav aria-label="Main navigation">
+        <nav className="desktop-nav" aria-label="Main navigation">
           {["home", "menu", "mix", "culture"].map((p) => (
             <a key={p} className={page === p ? "active" : ""} href={"#" + p}>
               {t(p)}
@@ -430,7 +483,7 @@ function App() {
           </button>
         </div>
       </header>
-      <main id="main" tabIndex={-1}>
+      <main id="main" tabIndex={-1} className={cart.length ? "has-cart" : ""}>
         {page === "home" && (
           <>
             <section className="hero">
@@ -582,15 +635,16 @@ function App() {
         )}
         {page === "menu" && (
           <>
-            <div className="page-title">
+            <div className="page-title menu-title">
               <p className="eyebrow">THE MENU / SHANGHAI COFFEE</p>
               <h1>{t("menu")}</h1>
               <p>{t("checkoutHint")}</p>
             </div>
             <div className="menu-layout">
-              <aside className="categories">
+              <aside className="categories" aria-label={t("categories")}>
                 <button
                   className={cat === "all" ? "selected" : ""}
+                  aria-pressed={cat === "all"}
                   onClick={() => setCat("all")}
                 >
                   {t("all")} <small>63</small>
@@ -599,6 +653,7 @@ function App() {
                   <div key={key}>
                     <button
                       className={cat === key ? "selected" : ""}
+                      aria-pressed={cat === key}
                       onClick={() => setCat(key)}
                     >
                       {l(value)}
@@ -612,6 +667,7 @@ function App() {
                     ).map((sub) => (
                       <button
                         className={"sub " + (cat === sub ? "selected" : "")}
+                        aria-pressed={cat === sub}
                         key={sub}
                         onClick={() => setCat(sub)}
                       >
@@ -622,7 +678,11 @@ function App() {
                   </div>
                 ))}
               </aside>
-              <section>
+              <section
+                className={
+                  "menu-products " + (filtersOpen ? "filters-open" : "")
+                }
+              >
                 <div className="filters">
                   <input
                     aria-label={t("search")}
@@ -630,6 +690,14 @@ function App() {
                     onChange={(e) => setQuery(e.target.value)}
                     placeholder={t("search")}
                   />
+                  <button
+                    className="filter-toggle"
+                    aria-expanded={filtersOpen}
+                    onClick={() => setFiltersOpen(!filtersOpen)}
+                  >
+                    {t("filters")}
+                    {max < 120 || tag !== "all" || demo ? " ·" : ""}
+                  </button>
                   <label>
                     {t("price")} ¥{max}
                     <input
@@ -1016,10 +1084,38 @@ function App() {
         <a href="#orders">{t("orders")}</a>
         <small>{t("checkoutHint")}</small>
       </footer>
-      <button className="mobile-cart" onClick={() => setCartOpen(true)}>
-        {t("cart")} ({cart.reduce((s, x) => s + x.qty, 0)}){" "}
-        <b>¥{total(cart).toFixed(2)}</b> · {t("checkout")}
-      </button>
+      {cart.length > 0 && (
+        <div className="mobile-cart">
+          <button
+            onClick={() => setCartOpen(true)}
+            aria-label={t("cart") + ` (${cart.reduce((s, x) => s + x.qty, 0)})`}
+          >
+            <span className="cart-symbol">
+              <NavIcon name="cart" />
+            </span>
+            <span>
+              {t("cart")} · {cart.reduce((s, x) => s + x.qty, 0)}
+              <strong>¥{total(cart).toFixed(2)}</strong>
+            </span>
+          </button>
+          <button className="mobile-checkout" onClick={() => setCheckout(true)}>
+            {t("checkout")}
+          </button>
+        </div>
+      )}
+      <nav className="mobile-tabs" aria-label={t("mobileNavigation")}>
+        {["home", "menu", "mix", "culture", "orders"].map((p) => (
+          <a
+            key={p}
+            href={"#" + p}
+            className={page === p ? "active" : ""}
+            aria-current={page === p ? "page" : undefined}
+          >
+            <NavIcon name={p} />
+            <span>{t("tab" + p[0].toUpperCase() + p.slice(1))}</span>
+          </a>
+        ))}
+      </nav>
       <dialog
         ref={dialog}
         onCancel={close}

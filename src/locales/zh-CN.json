@@ -93,5 +93,13 @@
   "storageError": "本地存储不可用或空间已满，刷新后可能丢失。",
   "print": "打印小票",
   "spoon": "含糯食小料建议用勺食用。",
-  "notes": "饮食与配方说明"
+  "notes": "饮食与配方说明",
+  "categories": "商品分类",
+  "mobileNavigation": "手机主导航",
+  "tabHome": "首页",
+  "tabMenu": "点单",
+  "tabMix": "DIY",
+  "tabCulture": "品牌",
+  "tabOrders": "订单",
+  "filters": "筛选条件"
 }

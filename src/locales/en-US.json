@@ -93,5 +93,13 @@
   "storageError": "Local storage is unavailable or full. Changes may not survive a refresh.",
   "print": "Print receipt",
   "spoon": "Use a spoon for sticky rice textures.",
-  "notes": "Recipe notes"
+  "notes": "Recipe notes",
+  "categories": "Product categories",
+  "mobileNavigation": "Mobile navigation",
+  "tabHome": "Home",
+  "tabMenu": "Order",
+  "tabMix": "DIY",
+  "tabCulture": "Story",
+  "tabOrders": "Orders",
+  "filters": "Filters"
 }
