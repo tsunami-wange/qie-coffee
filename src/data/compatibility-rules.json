@@ -1,0 +1,37 @@
+{
+  "limits": { "B": 1, "F": 2, "T": 3, "P": 2 },
+  "rules": [
+    {
+      "id": "acid-milk",
+      "severity": "block",
+      "any": ["F05", "F07"],
+      "with": ["B03"],
+      "zh": "山楂、酒酿与牛乳基底暂不开放组合，配方稳定性待测试。",
+      "en": "Hawthorn and fermented rice with milk coffee are unavailable pending stability tests."
+    },
+    {
+      "id": "acid-cream",
+      "severity": "warning",
+      "any": ["F05", "F07"],
+      "with": ["T01", "T04", "P06"],
+      "zh": "酸味或发酵配料与乳制小料的稳定性待测试。",
+      "en": "Acidic or fermented ingredients with dairy toppings need stability testing."
+    },
+    {
+      "id": "pepper-tea",
+      "severity": "warning",
+      "any": ["F09"],
+      "with": ["F03", "F04"],
+      "zh": "花椒可能掩盖茶香，建议分开体验。",
+      "en": "Sichuan pepper may overpower tea aromas; consider trying them separately."
+    },
+    {
+      "id": "alcohol",
+      "severity": "warning",
+      "any": ["F07"],
+      "with": [],
+      "zh": "酒酿可能含酒精，含量待供应商确认。",
+      "en": "Fermented sweet rice may contain alcohol; supplier confirmation is needed."
+    }
+  ]
+}

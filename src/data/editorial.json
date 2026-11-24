@@ -1,0 +1,115 @@
+{
+  "categories": {
+    "传统经典咖啡": "Coffee classics",
+    "中国风味基础款": "Chinese flavor classics",
+    "四时季节限定": "Four seasons",
+    "上海小吃咖啡化": "Shanghai snack inspirations",
+    "中国奇味挑战": "Unexpected Chinese flavors",
+    "官方固定叠叠乐": "Signature layered coffees",
+    "DIY｜咖啡基底": "DIY · Coffee bases",
+    "DIY｜中国风味": "DIY · Chinese flavors",
+    "DIY｜口感小料": "DIY · Textures",
+    "DIY｜顶部装饰": "DIY · Toppings",
+    "海派甜点": "Shanghai pastries",
+    "非咖啡饮品": "Beyond coffee",
+    "特色体验套餐": "Tasting sets",
+    "文创与旅游伴手礼": "Gifts & keepsakes"
+  },
+  "inspirations": {
+    "L01": {
+      "zh": "葱油拌面以葱香和咸鲜唤起上海日常饮食记忆。这款概念拿铁将葱香油与咸奶盖组合，用薄脆表现口感，不加入面条。",
+      "en": "Scallion oil noodles evoke everyday Shanghai food culture. This latte concept uses scallion oil, salted cream and a crisp garnish, without noodles."
+    },
+    "L02": {
+      "zh": "蝴蝶酥是上海西式糕点文化中熟悉的酥点。焦糖与蝴蝶酥碎将烘焙香气带入拿铁。",
+      "en": "Palmiers are familiar treats in Shanghai's Western-style bakeries. Caramel and palmier crumbs bring their baked aroma into a latte."
+    },
+    "L03": {
+      "zh": "酒酿圆子以米香和软糯口感为灵感。米乳咖啡、酒酿和迷你圆子构成甜品式咖啡，奶油表现云朵意象。",
+      "en": "Sweet fermented rice and rice balls inspire a dessert coffee with rice milk, fermented rice and mini rice balls, finished with cloud-like cream."
+    },
+    "L04": {
+      "zh": "鲜肉月饼的酥皮与咸鲜是创作出发点。以酥皮碎、海盐与白胡椒塑造风味意象，不添加肉馅。",
+      "en": "Flaky pastry and savory notes of pork mooncakes inspire this coffee. Pastry flakes, sea salt and white pepper evoke the idea; no meat filling is added."
+    },
+    "L05": {
+      "zh": "海派西式甜点提供栗子、奶油与蛋糕的组合灵感。栗子泥和蛋糕碎让咖啡呈现甜点口感。",
+      "en": "Shanghai's Western-style pastries inspire chestnut, cream and cake textures. Chestnut purée and cake crumbs turn coffee into a dessert experience."
+    },
+    "L06": {
+      "zh": "奶糖的甜香唤起城市零食记忆。奶糖风味糖浆、糯米纸与白巧克力形成脆皮咖啡构想。",
+      "en": "Milk candy recalls familiar city treats. Milk candy syrup, edible rice paper and white chocolate inspire a crisp-shell coffee."
+    },
+    "L07": {
+      "zh": "花椒的辛麻与黑巧的可可苦香碰撞，辛麻强度待测试。",
+      "en": "Sichuan pepper meets dark chocolate bitterness. The intensity needs testing."
+    },
+    "L08": {
+      "zh": "陈醋与山楂带来酸香，气泡水连接咖啡风味，使用非乳基底。",
+      "en": "Aged vinegar and hawthorn add tartness to sparkling coffee, using a non-dairy base."
+    },
+    "L09": {
+      "zh": "红腐乳的发酵咸香融入奶咖构想，乳化与盐度待测试。",
+      "en": "Red fermented tofu inspires savory cream coffee. Emulsion stability and salt balance need testing."
+    },
+    "L10": {
+      "zh": "酥油的乳脂香融入咖啡，以海盐点缀。",
+      "en": "Butter brings rich dairy notes to coffee, accented with sea salt."
+    },
+    "L11": {
+      "zh": "橄榄与咸柠的果香、咸酸口感结合气泡咖啡。",
+      "en": "Olive and salted lemon bring fruity, salty and tart notes to sparkling coffee."
+    },
+    "L12": {
+      "zh": "食用辣椒风味与黑巧相遇，微辣强度待测试。",
+      "en": "Chili flavor meets dark chocolate. A mild heat level needs testing."
+    }
+  },
+  "regions": [
+    {
+      "zh": "云南 · 咖啡",
+      "en": "Yunnan · Coffee",
+      "text": {
+        "zh": "云南咖啡是品牌多个基底的共同起点。",
+        "en": "Yunnan coffee forms the starting point for many of our bases."
+      },
+      "ids": ["C01", "C06", "C07"]
+    },
+    {
+      "zh": "江南 · 桂花",
+      "en": "Jiangnan · Osmanthus",
+      "text": {
+        "zh": "桂花香气连接江南甜食记忆与咖啡创作。",
+        "en": "Osmanthus connects Jiangnan sweet flavors with coffee creativity."
+      },
+      "ids": ["C08", "C16"]
+    },
+    {
+      "zh": "四川 · 花椒",
+      "en": "Sichuan · Pepper",
+      "text": {
+        "zh": "以花椒的辛麻香气探索黑巧咖啡。",
+        "en": "Pepper's aromatic tingling inspires dark chocolate coffee."
+      },
+      "ids": ["L07"]
+    },
+    {
+      "zh": "山西 · 陈醋",
+      "en": "Shanxi · Aged vinegar",
+      "text": {
+        "zh": "以陈醋酸香作为风味灵感，具体原料产地以采购标签为准。",
+        "en": "Aged vinegar inspires tart notes. Ingredient origin depends on supplier labels."
+      },
+      "ids": ["L08"]
+    },
+    {
+      "zh": "潮汕 · 咸柠灵感",
+      "en": "Chaoshan · Salted citrus inspiration",
+      "text": {
+        "zh": "咸柠与橄榄启发本品牌风味组合；不主张其为潮汕独有食材。",
+        "en": "Salted lemon and olive inspire this brand's combination; neither is claimed to be exclusive to Chaoshan."
+      },
+      "ids": ["L11"]
+    }
+  ]
+}

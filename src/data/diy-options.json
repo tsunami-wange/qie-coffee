@@ -1,0 +1,632 @@
+[
+  {
+    "id": "B01",
+    "name": {
+      "zh": "云南浓缩",
+      "en": "Yunnan Espresso"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜咖啡基底",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆",
+      "en": "Yunnan coffee blend"
+    },
+    "price": 20.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "必选1；基底价含包装、配方卡",
+      "en": "Choose exactly one; Base includes packaging and recipe card"
+    },
+    "group": "B"
+  },
+  {
+    "id": "B02",
+    "name": {
+      "zh": "云南冷萃",
+      "en": "Yunnan Cold Brew"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜咖啡基底",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆",
+      "en": "Yunnan coffee blend"
+    },
+    "price": 22.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "必选1；基底价含包装、配方卡",
+      "en": "Choose exactly one; Base includes packaging and recipe card"
+    },
+    "group": "B"
+  },
+  {
+    "id": "B03",
+    "name": {
+      "zh": "牛乳咖啡",
+      "en": "Milk Coffee"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜咖啡基底",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶",
+      "en": "Yunnan coffee blend, milk"
+    },
+    "price": 24.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "必选1；基底价含包装、配方卡",
+      "en": "Choose exactly one; Base includes packaging and recipe card"
+    },
+    "group": "B"
+  },
+  {
+    "id": "B04",
+    "name": {
+      "zh": "豆乳咖啡",
+      "en": "Soy Coffee"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜咖啡基底",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、豆乳",
+      "en": "Yunnan coffee blend, soy milk"
+    },
+    "price": 24.0,
+    "allergens": ["soy"],
+    "alcohol": false,
+    "notes": {
+      "zh": "必选1；基底价含包装、配方卡",
+      "en": "Choose exactly one; Base includes packaging and recipe card"
+    },
+    "group": "B"
+  },
+  {
+    "id": "B05",
+    "name": {
+      "zh": "米乳咖啡",
+      "en": "Rice Milk Coffee"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜咖啡基底",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、米乳",
+      "en": "Yunnan coffee blend, rice milk"
+    },
+    "price": 24.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "必选1；基底价含包装、配方卡",
+      "en": "Choose exactly one; Base includes packaging and recipe card"
+    },
+    "group": "B"
+  },
+  {
+    "id": "F01",
+    "name": {
+      "zh": "桂花",
+      "en": "Osmanthus"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜中国风味",
+    "ingredients": {
+      "zh": "桂花糖浆",
+      "en": "osmanthus syrup"
+    },
+    "price": 3.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种",
+      "en": "Add-on price; Choose up to 2"
+    },
+    "group": "F"
+  },
+  {
+    "id": "F02",
+    "name": {
+      "zh": "黑芝麻",
+      "en": "Black Sesame"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜中国风味",
+    "ingredients": {
+      "zh": "黑芝麻酱",
+      "en": "black sesame paste"
+    },
+    "price": 4.0,
+    "allergens": ["sesame"],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种",
+      "en": "Add-on price; Choose up to 2"
+    },
+    "group": "F"
+  },
+  {
+    "id": "F03",
+    "name": {
+      "zh": "乌龙",
+      "en": "Oolong"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜中国风味",
+    "ingredients": {
+      "zh": "乌龙茶叶",
+      "en": "oolong tea"
+    },
+    "price": 3.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种",
+      "en": "Add-on price; Choose up to 2"
+    },
+    "group": "F"
+  },
+  {
+    "id": "F04",
+    "name": {
+      "zh": "龙井",
+      "en": "Longjing Tea"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜中国风味",
+    "ingredients": {
+      "zh": "龙井茶粉",
+      "en": "Longjing green tea powder"
+    },
+    "price": 4.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种",
+      "en": "Add-on price; Choose up to 2"
+    },
+    "group": "F"
+  },
+  {
+    "id": "F05",
+    "name": {
+      "zh": "山楂",
+      "en": "Hawthorn"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜中国风味",
+    "ingredients": {
+      "zh": "山楂果酱",
+      "en": "hawthorn jam"
+    },
+    "price": 3.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种；与乳基底搭配需限制",
+      "en": "Add-on price; Choose up to 2; Restricted with milk coffee base"
+    },
+    "group": "F"
+  },
+  {
+    "id": "F06",
+    "name": {
+      "zh": "陈皮",
+      "en": "Tangerine Peel"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜中国风味",
+    "ingredients": {
+      "zh": "陈皮糖浆",
+      "en": "aged tangerine peel syrup"
+    },
+    "price": 3.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种",
+      "en": "Add-on price; Choose up to 2"
+    },
+    "group": "F"
+  },
+  {
+    "id": "F07",
+    "name": {
+      "zh": "酒酿",
+      "en": "fermented sweet rice"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜中国风味",
+    "ingredients": {
+      "zh": "酒酿",
+      "en": "fermented sweet rice"
+    },
+    "price": 4.0,
+    "allergens": [],
+    "alcohol": true,
+    "notes": {
+      "zh": "加价；最多选2种；与乳基底搭配需限制；酒精含量待核",
+      "en": "Add-on price; Choose up to 2; Restricted with milk coffee base; Alcohol content unconfirmed"
+    },
+    "group": "F"
+  },
+  {
+    "id": "F08",
+    "name": {
+      "zh": "栗子",
+      "en": "Chestnut"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜中国风味",
+    "ingredients": {
+      "zh": "栗子泥",
+      "en": "chestnut purée"
+    },
+    "price": 4.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种",
+      "en": "Add-on price; Choose up to 2"
+    },
+    "group": "F"
+  },
+  {
+    "id": "F09",
+    "name": {
+      "zh": "花椒",
+      "en": "Sichuan Pepper"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜中国风味",
+    "ingredients": {
+      "zh": "花椒糖浆",
+      "en": "Sichuan pepper syrup"
+    },
+    "price": 3.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种；限量",
+      "en": "Add-on price; Choose up to 2; Limited dose"
+    },
+    "group": "F"
+  },
+  {
+    "id": "F10",
+    "name": {
+      "zh": "红豆",
+      "en": "Red Bean"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜中国风味",
+    "ingredients": {
+      "zh": "红豆泥",
+      "en": "red bean paste"
+    },
+    "price": 3.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种",
+      "en": "Add-on price; Choose up to 2"
+    },
+    "group": "F"
+  },
+  {
+    "id": "T01",
+    "name": {
+      "zh": "奶皮子",
+      "en": "milk skin"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜口感小料",
+    "ingredients": {
+      "zh": "奶皮子",
+      "en": "milk skin"
+    },
+    "price": 6.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选3种；糯食用勺",
+      "en": "Add-on price; Choose up to 3; Use a spoon for sticky rice ingredients"
+    },
+    "group": "T"
+  },
+  {
+    "id": "T02",
+    "name": {
+      "zh": "麻糍",
+      "en": "mochi"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜口感小料",
+    "ingredients": {
+      "zh": "麻糍",
+      "en": "mochi"
+    },
+    "price": 4.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选3种；糯食用勺",
+      "en": "Add-on price; Choose up to 3; Use a spoon for sticky rice ingredients"
+    },
+    "group": "T"
+  },
+  {
+    "id": "T03",
+    "name": {
+      "zh": "血糯米",
+      "en": "Red Glutinous Rice"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜口感小料",
+    "ingredients": {
+      "zh": "熟血糯米",
+      "en": "cooked red glutinous rice"
+    },
+    "price": 4.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选3种；糯食用勺",
+      "en": "Add-on price; Choose up to 3; Use a spoon for sticky rice ingredients"
+    },
+    "group": "T"
+  },
+  {
+    "id": "T04",
+    "name": {
+      "zh": "浓稠酸奶",
+      "en": "thick yogurt"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜口感小料",
+    "ingredients": {
+      "zh": "浓稠酸奶",
+      "en": "thick yogurt"
+    },
+    "price": 6.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选3种；糯食用勺",
+      "en": "Add-on price; Choose up to 3; Use a spoon for sticky rice ingredients"
+    },
+    "group": "T"
+  },
+  {
+    "id": "T05",
+    "name": {
+      "zh": "芋泥",
+      "en": "taro purée"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜口感小料",
+    "ingredients": {
+      "zh": "芋泥",
+      "en": "taro purée"
+    },
+    "price": 4.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选3种；糯食用勺",
+      "en": "Add-on price; Choose up to 3; Use a spoon for sticky rice ingredients"
+    },
+    "group": "T"
+  },
+  {
+    "id": "T06",
+    "name": {
+      "zh": "迷你圆子",
+      "en": "mini glutinous rice balls"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜口感小料",
+    "ingredients": {
+      "zh": "迷你圆子",
+      "en": "mini glutinous rice balls"
+    },
+    "price": 4.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选3种；糯食用勺",
+      "en": "Add-on price; Choose up to 3; Use a spoon for sticky rice ingredients"
+    },
+    "group": "T"
+  },
+  {
+    "id": "T07",
+    "name": {
+      "zh": "咖啡冻",
+      "en": "coffee jelly"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜口感小料",
+    "ingredients": {
+      "zh": "咖啡冻",
+      "en": "coffee jelly"
+    },
+    "price": 3.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选3种；糯食用勺",
+      "en": "Add-on price; Choose up to 3; Use a spoon for sticky rice ingredients"
+    },
+    "group": "T"
+  },
+  {
+    "id": "T08",
+    "name": {
+      "zh": "红豆粒",
+      "en": "Red Beans"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜口感小料",
+    "ingredients": {
+      "zh": "熟红豆粒",
+      "en": "cooked red beans"
+    },
+    "price": 3.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选3种；糯食用勺",
+      "en": "Add-on price; Choose up to 3; Use a spoon for sticky rice ingredients"
+    },
+    "group": "T"
+  },
+  {
+    "id": "P01",
+    "name": {
+      "zh": "巧克力脆皮",
+      "en": "Chocolate Shell"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜顶部装饰",
+    "ingredients": {
+      "zh": "巧克力脆片",
+      "en": "chocolate shards"
+    },
+    "price": 5.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种；控制容量",
+      "en": "Add-on price; Choose up to 2; Final volume needs checking"
+    },
+    "group": "P"
+  },
+  {
+    "id": "P02",
+    "name": {
+      "zh": "蝴蝶酥碎",
+      "en": "palmier crumbs"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜顶部装饰",
+    "ingredients": {
+      "zh": "蝴蝶酥碎",
+      "en": "palmier crumbs"
+    },
+    "price": 4.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种；控制容量",
+      "en": "Add-on price; Choose up to 2; Final volume needs checking"
+    },
+    "group": "P"
+  },
+  {
+    "id": "P03",
+    "name": {
+      "zh": "黄油薄脆",
+      "en": "butter crisp"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜顶部装饰",
+    "ingredients": {
+      "zh": "黄油薄脆",
+      "en": "butter crisp"
+    },
+    "price": 4.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种；控制容量",
+      "en": "Add-on price; Choose up to 2; Final volume needs checking"
+    },
+    "group": "P"
+  },
+  {
+    "id": "P04",
+    "name": {
+      "zh": "迷你糖葫芦",
+      "en": "mini candied hawthorn skewer"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜顶部装饰",
+    "ingredients": {
+      "zh": "迷你糖葫芦",
+      "en": "mini candied hawthorn skewer"
+    },
+    "price": 8.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种；控制容量",
+      "en": "Add-on price; Choose up to 2; Final volume needs checking"
+    },
+    "group": "P"
+  },
+  {
+    "id": "P05",
+    "name": {
+      "zh": "冻干莓果",
+      "en": "freeze-dried berries"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜顶部装饰",
+    "ingredients": {
+      "zh": "冻干莓果",
+      "en": "freeze-dried berries"
+    },
+    "price": 5.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种；控制容量",
+      "en": "Add-on price; Choose up to 2; Final volume needs checking"
+    },
+    "group": "P"
+  },
+  {
+    "id": "P06",
+    "name": {
+      "zh": "海盐奶盖",
+      "en": "Sea Salt Cream"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜顶部装饰",
+    "ingredients": {
+      "zh": "淡奶油、海盐",
+      "en": "cream, sea salt"
+    },
+    "price": 5.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种；控制容量",
+      "en": "Add-on price; Choose up to 2; Final volume needs checking"
+    },
+    "group": "P"
+  },
+  {
+    "id": "P07",
+    "name": {
+      "zh": "焦糖脆片",
+      "en": "caramel shards"
+    },
+    "main": "Qie.Mix",
+    "sub": "DIY｜顶部装饰",
+    "ingredients": {
+      "zh": "焦糖脆片",
+      "en": "caramel shards"
+    },
+    "price": 4.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "加价；最多选2种；控制容量",
+      "en": "Add-on price; Choose up to 2; Final volume needs checking"
+    },
+    "group": "P"
+  }
+]

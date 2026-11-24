@@ -1,0 +1,2144 @@
+[
+  {
+    "id": "C01",
+    "name": {
+      "zh": "云南美式",
+      "en": "Yunnan Americano"
+    },
+    "main": "Qie.Classic",
+    "sub": "传统经典咖啡",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆",
+      "en": "Yunnan coffee blend"
+    },
+    "price": 20.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约300–350ml/杯",
+      "en": "Launch selection; approx. 300–350ml / cup"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C01.svg",
+    "tags": ["Classic"],
+    "description": {
+      "zh": "以云南拼配咖啡豆呈现云南美式的风味构想。",
+      "en": "Yunnan Americano, composed with Yunnan coffee blend."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": []
+  },
+  {
+    "id": "C02",
+    "name": {
+      "zh": "经典拿铁",
+      "en": "Classic Latte"
+    },
+    "main": "Qie.Classic",
+    "sub": "传统经典咖啡",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶",
+      "en": "Yunnan coffee blend, milk"
+    },
+    "price": 26.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约300–350ml/杯",
+      "en": "Launch selection; approx. 300–350ml / cup"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C02.svg",
+    "tags": ["Classic"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶呈现经典拿铁的风味构想。",
+      "en": "Classic Latte, composed with Yunnan coffee blend, milk."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": []
+  },
+  {
+    "id": "C03",
+    "name": {
+      "zh": "馥芮白",
+      "en": "Flat White"
+    },
+    "main": "Qie.Classic",
+    "sub": "传统经典咖啡",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶",
+      "en": "Yunnan coffee blend, milk"
+    },
+    "price": 28.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约200ml/杯；约200ml",
+      "en": "Launch selection; approx. 200ml / cup; approx. 200ml"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约200ml/杯",
+      "en": "approx. 200ml / cup"
+    },
+    "image": "images/C03.svg",
+    "tags": ["Classic"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶呈现馥芮白的风味构想。",
+      "en": "Flat White, composed with Yunnan coffee blend, milk."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": []
+  },
+  {
+    "id": "C04",
+    "name": {
+      "zh": "卡布奇诺",
+      "en": "Cappuccino"
+    },
+    "main": "Qie.Classic",
+    "sub": "传统经典咖啡",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶",
+      "en": "Yunnan coffee blend, milk"
+    },
+    "price": 28.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；约200ml/杯；约200ml",
+      "en": "Reserve concept; approx. 200ml / cup; approx. 200ml"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "约200ml/杯",
+      "en": "approx. 200ml / cup"
+    },
+    "image": "images/C04.svg",
+    "tags": ["Classic"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶呈现卡布奇诺的风味构想。",
+      "en": "Cappuccino, composed with Yunnan coffee blend, milk."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": []
+  },
+  {
+    "id": "C05",
+    "name": {
+      "zh": "摩卡",
+      "en": "Mocha"
+    },
+    "main": "Qie.Classic",
+    "sub": "传统经典咖啡",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、黑巧克力",
+      "en": "Yunnan coffee blend, milk, dark chocolate"
+    },
+    "price": 30.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；约300–350ml/杯",
+      "en": "Reserve concept; approx. 300–350ml / cup"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C05.svg",
+    "tags": ["Classic"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、黑巧克力呈现摩卡的风味构想。",
+      "en": "Mocha, composed with Yunnan coffee blend, milk, dark chocolate."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": []
+  },
+  {
+    "id": "C06",
+    "name": {
+      "zh": "云南冷萃",
+      "en": "Yunnan Cold Brew"
+    },
+    "main": "Qie.Classic",
+    "sub": "传统经典咖啡",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆",
+      "en": "Yunnan coffee blend"
+    },
+    "price": 28.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约300–350ml/杯；",
+      "en": "Launch selection; approx. 300–350ml / cup; "
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C06.svg",
+    "tags": ["Classic"],
+    "description": {
+      "zh": "以云南拼配咖啡豆呈现云南冷萃的风味构想。",
+      "en": "Yunnan Cold Brew, composed with Yunnan coffee blend."
+    },
+    "temperature": ["iced"],
+    "sweetness": []
+  },
+  {
+    "id": "C07",
+    "name": {
+      "zh": "云南单一产地手冲",
+      "en": "Yunnan Pour-over"
+    },
+    "main": "Qie.Classic",
+    "sub": "传统经典咖啡",
+    "ingredients": {
+      "zh": "云南单一产地咖啡豆",
+      "en": "single-origin Yunnan coffee"
+    },
+    "price": 36.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约300–350ml/杯",
+      "en": "Launch selection; approx. 300–350ml / cup"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C07.svg",
+    "tags": ["Classic"],
+    "description": {
+      "zh": "以云南单一产地咖啡豆呈现云南单一产地手冲的风味构想。",
+      "en": "Yunnan Pour-over, composed with single-origin Yunnan coffee."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": []
+  },
+  {
+    "id": "C08",
+    "name": {
+      "zh": "桂花拿铁",
+      "en": "Osmanthus Latte"
+    },
+    "main": "Qie.Classic",
+    "sub": "中国风味基础款",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、桂花糖浆、干桂花",
+      "en": "Yunnan coffee blend, milk, osmanthus syrup, dried osmanthus flowers"
+    },
+    "price": 32.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约300–350ml/杯",
+      "en": "Launch selection; approx. 300–350ml / cup"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C08.svg",
+    "tags": ["Classic"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、桂花糖浆、干桂花呈现桂花拿铁的风味构想。",
+      "en": "Osmanthus Latte, composed with Yunnan coffee blend, milk, osmanthus syrup, dried osmanthus flowers."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": []
+  },
+  {
+    "id": "C09",
+    "name": {
+      "zh": "黑芝麻奶咖",
+      "en": "Black Sesame Latte"
+    },
+    "main": "Qie.Classic",
+    "sub": "中国风味基础款",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、黑芝麻酱、白砂糖",
+      "en": "Yunnan coffee blend, milk, black sesame paste, sugar"
+    },
+    "price": 34.0,
+    "allergens": ["milk", "sesame"],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约300–350ml/杯",
+      "en": "Launch selection; approx. 300–350ml / cup"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C09.svg",
+    "tags": ["Classic"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、黑芝麻酱、白砂糖呈现黑芝麻奶咖的风味构想。",
+      "en": "Black Sesame Latte, composed with Yunnan coffee blend, milk, black sesame paste, sugar."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": ["standard", "less"]
+  },
+  {
+    "id": "C10",
+    "name": {
+      "zh": "乌龙冷萃",
+      "en": "Oolong Cold Brew"
+    },
+    "main": "Qie.Classic",
+    "sub": "中国风味基础款",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、乌龙茶叶",
+      "en": "Yunnan coffee blend, oolong tea"
+    },
+    "price": 34.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约300–350ml/杯",
+      "en": "Launch selection; approx. 300–350ml / cup"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C10.svg",
+    "tags": ["Classic"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、乌龙茶叶呈现乌龙冷萃的风味构想。",
+      "en": "Oolong Cold Brew, composed with Yunnan coffee blend, oolong tea."
+    },
+    "temperature": ["iced"],
+    "sweetness": []
+  },
+  {
+    "id": "C11",
+    "name": {
+      "zh": "红豆奶咖",
+      "en": "Red Bean Latte"
+    },
+    "main": "Qie.Classic",
+    "sub": "中国风味基础款",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、红豆泥",
+      "en": "Yunnan coffee blend, milk, red bean paste"
+    },
+    "price": 32.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；约300–350ml/杯",
+      "en": "Reserve concept; approx. 300–350ml / cup"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C11.svg",
+    "tags": ["Classic"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、红豆泥呈现红豆奶咖的风味构想。",
+      "en": "Red Bean Latte, composed with Yunnan coffee blend, milk, red bean paste."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": []
+  },
+  {
+    "id": "C12",
+    "name": {
+      "zh": "茶咖双拼",
+      "en": "Tea Coffee Duo"
+    },
+    "main": "Qie.Classic",
+    "sub": "中国风味基础款",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、龙井茶粉、白砂糖",
+      "en": "Yunnan coffee blend, milk, Longjing green tea powder, sugar"
+    },
+    "price": 34.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；约300–350ml/杯；选中国茶粉，首测龙井粉",
+      "en": "Reserve concept; approx. 300–350ml / cup; Chinese tea powder; initial concept uses Longjing"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C12.svg",
+    "tags": ["Classic"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、龙井茶粉、白砂糖呈现茶咖双拼的风味构想。",
+      "en": "Tea Coffee Duo, composed with Yunnan coffee blend, milk, Longjing green tea powder, sugar."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": ["standard", "less"]
+  },
+  {
+    "id": "C13",
+    "name": {
+      "zh": "陈皮美式",
+      "en": "Tangerine Peel Americano"
+    },
+    "main": "Qie.Classic",
+    "sub": "中国风味基础款",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、陈皮糖浆",
+      "en": "Yunnan coffee blend, aged tangerine peel syrup"
+    },
+    "price": 30.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约300–350ml/杯",
+      "en": "Launch selection; approx. 300–350ml / cup"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C13.svg",
+    "tags": ["Classic"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、陈皮糖浆呈现陈皮美式的风味构想。",
+      "en": "Tangerine Peel Americano, composed with Yunnan coffee blend, aged tangerine peel syrup."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": []
+  },
+  {
+    "id": "C14",
+    "name": {
+      "zh": "春·龙井奶咖",
+      "en": "Spring Longjing Latte"
+    },
+    "main": "Qie.Classic",
+    "sub": "四时季节限定",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、龙井茶粉、白砂糖",
+      "en": "Yunnan coffee blend, milk, Longjing green tea powder, sugar"
+    },
+    "price": 34.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备/节令；约300–350ml/杯",
+      "en": "Reserve / seasonal; approx. 300–350ml / cup"
+    },
+    "status": "concept",
+    "seasonal": true,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C14.svg",
+    "tags": ["Classic", "seasonal"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、龙井茶粉、白砂糖呈现春·龙井奶咖的风味构想。",
+      "en": "Spring Longjing Latte, composed with Yunnan coffee blend, milk, Longjing green tea powder, sugar."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": ["standard", "less"]
+  },
+  {
+    "id": "C15",
+    "name": {
+      "zh": "夏·杨梅冷萃",
+      "en": "Summer Bayberry Cold Brew"
+    },
+    "main": "Qie.Classic",
+    "sub": "四时季节限定",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、杨梅果酱",
+      "en": "Yunnan coffee blend, Chinese bayberry jam"
+    },
+    "price": 36.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备/节令；约300–350ml/杯",
+      "en": "Reserve / seasonal; approx. 300–350ml / cup"
+    },
+    "status": "concept",
+    "seasonal": true,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C15.svg",
+    "tags": ["Classic", "seasonal"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、杨梅果酱呈现夏·杨梅冷萃的风味构想。",
+      "en": "Summer Bayberry Cold Brew, composed with Yunnan coffee blend, Chinese bayberry jam."
+    },
+    "temperature": ["iced"],
+    "sweetness": []
+  },
+  {
+    "id": "C16",
+    "name": {
+      "zh": "秋·桂花米乳咖啡",
+      "en": "Autumn Osmanthus Rice Coffee"
+    },
+    "main": "Qie.Classic",
+    "sub": "四时季节限定",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、米乳、桂花糖浆、干桂花",
+      "en": "Yunnan coffee blend, rice milk, osmanthus syrup, dried osmanthus flowers"
+    },
+    "price": 34.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备/节令；约300–350ml/杯",
+      "en": "Reserve / seasonal; approx. 300–350ml / cup"
+    },
+    "status": "concept",
+    "seasonal": true,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C16.svg",
+    "tags": ["Classic", "seasonal"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、米乳、桂花糖浆、干桂花呈现秋·桂花米乳咖啡的风味构想。",
+      "en": "Autumn Osmanthus Rice Coffee, composed with Yunnan coffee blend, rice milk, osmanthus syrup, dried osmanthus flowers."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": []
+  },
+  {
+    "id": "C17",
+    "name": {
+      "zh": "冬·陈皮可可咖啡",
+      "en": "Winter Tangerine Cocoa Coffee"
+    },
+    "main": "Qie.Classic",
+    "sub": "四时季节限定",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、黑巧克力、陈皮糖浆",
+      "en": "Yunnan coffee blend, milk, dark chocolate, aged tangerine peel syrup"
+    },
+    "price": 36.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备/节令；约300–350ml/杯",
+      "en": "Reserve / seasonal; approx. 300–350ml / cup"
+    },
+    "status": "concept",
+    "seasonal": true,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/C17.svg",
+    "tags": ["Classic", "seasonal"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、黑巧克力、陈皮糖浆呈现冬·陈皮可可咖啡的风味构想。",
+      "en": "Winter Tangerine Cocoa Coffee, composed with Yunnan coffee blend, milk, dark chocolate, aged tangerine peel syrup."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": []
+  },
+  {
+    "id": "L01",
+    "name": {
+      "zh": "葱油拌面拿铁",
+      "en": "Scallion Oil Latte"
+    },
+    "main": "Qie.Lab",
+    "sub": "上海小吃咖啡化",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、淡奶油、烘烤葱香油、海盐、葱香薄脆",
+      "en": "Yunnan coffee blend, milk, cream, roasted scallion oil, sea salt, scallion crisp"
+    },
+    "price": 39.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约300–350ml/杯；食品用葱香油，小剂量",
+      "en": "Launch selection; approx. 300–350ml / cup; Food-grade scallion oil in small amounts"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/L01.svg",
+    "tags": ["Lab"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、淡奶油、烘烤葱香油、海盐、葱香薄脆呈现葱油拌面拿铁的风味构想。",
+      "en": "Scallion Oil Latte, composed with Yunnan coffee blend, milk, cream, roasted scallion oil, sea salt, scallion crisp."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "L02",
+    "name": {
+      "zh": "蝴蝶酥碎碎拿铁",
+      "en": "Palmier Crunch Latte"
+    },
+    "main": "Qie.Lab",
+    "sub": "上海小吃咖啡化",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、焦糖酱、淡奶油、海盐、蝴蝶酥碎",
+      "en": "Yunnan coffee blend, milk, caramel sauce, cream, sea salt, palmier crumbs"
+    },
+    "price": 39.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约300–350ml/杯",
+      "en": "Launch selection; approx. 300–350ml / cup"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/L02.svg",
+    "tags": ["Lab"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、焦糖酱、淡奶油、海盐、蝴蝶酥碎呈现蝴蝶酥碎碎拿铁的风味构想。",
+      "en": "Palmier Crunch Latte, composed with Yunnan coffee blend, milk, caramel sauce, cream, sea salt, palmier crumbs."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "L03",
+    "name": {
+      "zh": "酒酿圆子云朵咖啡",
+      "en": "Sweet Rice Cloud Coffee"
+    },
+    "main": "Qie.Lab",
+    "sub": "上海小吃咖啡化",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、米乳、酒酿、迷你圆子、桂花糖浆、淡奶油",
+      "en": "Yunnan coffee blend, rice milk, fermented sweet rice, mini glutinous rice balls, osmanthus syrup, cream"
+    },
+    "price": 42.0,
+    "allergens": ["milk"],
+    "alcohol": true,
+    "notes": {
+      "zh": "首期；约300–350ml/杯；酒酿酒精含量标注",
+      "en": "Launch selection; approx. 300–350ml / cup; Fermented rice alcohol content must be confirmed"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/L03.svg",
+    "tags": ["Lab"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、米乳、酒酿、迷你圆子、桂花糖浆、淡奶油呈现酒酿圆子云朵咖啡的风味构想。",
+      "en": "Sweet Rice Cloud Coffee, composed with Yunnan coffee blend, rice milk, fermented sweet rice, mini glutinous rice balls, osmanthus syrup, cream."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "L04",
+    "name": {
+      "zh": "鲜肉月饼风味咸奶咖",
+      "en": "Savory Mooncake Latte"
+    },
+    "main": "Qie.Lab",
+    "sub": "上海小吃咖啡化",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、淡奶油、酥皮碎、海盐、白胡椒粉",
+      "en": "Yunnan coffee blend, milk, cream, pastry flakes, sea salt, white pepper"
+    },
+    "price": 42.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；约300–350ml/杯；风味意象；不添加肉馅",
+      "en": "Reserve concept; approx. 300–350ml / cup; Flavor inspiration; No meat filling"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/L04.svg",
+    "tags": ["Lab"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、淡奶油、酥皮碎、海盐、白胡椒粉呈现鲜肉月饼风味咸奶咖的风味构想。",
+      "en": "Savory Mooncake Latte, composed with Yunnan coffee blend, milk, cream, pastry flakes, sea salt, white pepper."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "L05",
+    "name": {
+      "zh": "海派栗子蛋糕咖啡",
+      "en": "Shanghai Mont Blanc Coffee"
+    },
+    "main": "Qie.Lab",
+    "sub": "上海小吃咖啡化",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、栗子泥、淡奶油、蛋糕碎、巧克力脆片",
+      "en": "Yunnan coffee blend, milk, chestnut purée, cream, cake crumbs, chocolate shards"
+    },
+    "price": 45.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约300–350ml/杯",
+      "en": "Launch selection; approx. 300–350ml / cup"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/L05.svg",
+    "tags": ["Lab"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、栗子泥、淡奶油、蛋糕碎、巧克力脆片呈现海派栗子蛋糕咖啡的风味构想。",
+      "en": "Shanghai Mont Blanc Coffee, composed with Yunnan coffee blend, milk, chestnut purée, cream, cake crumbs, chocolate shards."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "L06",
+    "name": {
+      "zh": "老上海奶糖脆皮咖啡",
+      "en": "Shanghai Milk Candy Crunch"
+    },
+    "main": "Qie.Lab",
+    "sub": "上海小吃咖啡化",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、奶糖风味糖浆、糯米纸、白巧克力",
+      "en": "Yunnan coffee blend, milk, milk candy syrup, edible rice paper, white chocolate"
+    },
+    "price": 42.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；约300–350ml/杯",
+      "en": "Reserve concept; approx. 300–350ml / cup"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/L06.svg",
+    "tags": ["Lab"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、奶糖风味糖浆、糯米纸、白巧克力呈现老上海奶糖脆皮咖啡的风味构想。",
+      "en": "Shanghai Milk Candy Crunch, composed with Yunnan coffee blend, milk, milk candy syrup, edible rice paper, white chocolate."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "L07",
+    "name": {
+      "zh": "花椒黑巧咖啡",
+      "en": "Sichuan Pepper Chocolate Coffee"
+    },
+    "main": "Qie.Lab",
+    "sub": "中国奇味挑战",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、黑巧克力、花椒糖浆",
+      "en": "Yunnan coffee blend, milk, dark chocolate, Sichuan pepper syrup"
+    },
+    "price": 39.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约300–350ml/杯；辛麻强度测试",
+      "en": "Launch selection; approx. 300–350ml / cup; Tingling intensity needs testing"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/L07.svg",
+    "tags": ["Lab"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、黑巧克力、花椒糖浆呈现花椒黑巧咖啡的风味构想。",
+      "en": "Sichuan Pepper Chocolate Coffee, composed with Yunnan coffee blend, milk, dark chocolate, Sichuan pepper syrup."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "L08",
+    "name": {
+      "zh": "陈醋山楂气泡咖啡",
+      "en": "Vinegar Hawthorn Sparkling Coffee"
+    },
+    "main": "Qie.Lab",
+    "sub": "中国奇味挑战",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、陈醋、山楂果酱、气泡水",
+      "en": "Yunnan coffee blend, aged vinegar, hawthorn jam, sparkling water"
+    },
+    "price": 39.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "轮换；约300–350ml/杯；非乳基底",
+      "en": "Rotating concept; approx. 300–350ml / cup; Non-dairy base"
+    },
+    "status": "rotation",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/L08.svg",
+    "tags": ["Lab"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、陈醋、山楂果酱、气泡水呈现陈醋山楂气泡咖啡的风味构想。",
+      "en": "Vinegar Hawthorn Sparkling Coffee, composed with Yunnan coffee blend, aged vinegar, hawthorn jam, sparkling water."
+    },
+    "temperature": ["iced"],
+    "sweetness": []
+  },
+  {
+    "id": "L09",
+    "name": {
+      "zh": "红腐乳咸奶咖",
+      "en": "Fermented Tofu Cream Coffee"
+    },
+    "main": "Qie.Lab",
+    "sub": "中国奇味挑战",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、淡奶油、红腐乳、焦糖酱、海盐",
+      "en": "Yunnan coffee blend, milk, cream, red fermented tofu, caramel sauce, sea salt"
+    },
+    "price": 39.0,
+    "allergens": ["milk", "soy"],
+    "alcohol": false,
+    "notes": {
+      "zh": "轮换；约300–350ml/杯；发酵乳化、盐度须测试",
+      "en": "Rotating concept; approx. 300–350ml / cup; Fermentation emulsion and salt balance need testing"
+    },
+    "status": "rotation",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/L09.svg",
+    "tags": ["Lab"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、淡奶油、红腐乳、焦糖酱、海盐呈现红腐乳咸奶咖的风味构想。",
+      "en": "Fermented Tofu Cream Coffee, composed with Yunnan coffee blend, milk, cream, red fermented tofu, caramel sauce, sea salt."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "L10",
+    "name": {
+      "zh": "酥油咖啡",
+      "en": "Butter Coffee"
+    },
+    "main": "Qie.Lab",
+    "sub": "中国奇味挑战",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、酥油、海盐",
+      "en": "Yunnan coffee blend, milk, butter, sea salt"
+    },
+    "price": 38.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "轮换；约300–350ml/杯",
+      "en": "Rotating concept; approx. 300–350ml / cup"
+    },
+    "status": "rotation",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/L10.svg",
+    "tags": ["Lab"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、酥油、海盐呈现酥油咖啡的风味构想。",
+      "en": "Butter Coffee, composed with Yunnan coffee blend, milk, butter, sea salt."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "L11",
+    "name": {
+      "zh": "橄榄咸柠咖啡",
+      "en": "Salted Lemon Olive Coffee"
+    },
+    "main": "Qie.Lab",
+    "sub": "中国奇味挑战",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、橄榄果酱、咸柠檬酱、气泡水",
+      "en": "Yunnan coffee blend, olive jam, salted lemon paste, sparkling water"
+    },
+    "price": 39.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "轮换；约300–350ml/杯；非乳基底",
+      "en": "Rotating concept; approx. 300–350ml / cup; Non-dairy base"
+    },
+    "status": "rotation",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/L11.svg",
+    "tags": ["Lab"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、橄榄果酱、咸柠檬酱、气泡水呈现橄榄咸柠咖啡的风味构想。",
+      "en": "Salted Lemon Olive Coffee, composed with Yunnan coffee blend, olive jam, salted lemon paste, sparkling water."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "L12",
+    "name": {
+      "zh": "辣椒黑巧咖啡",
+      "en": "Chili Chocolate Coffee"
+    },
+    "main": "Qie.Lab",
+    "sub": "中国奇味挑战",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、黑巧克力、辣椒糖浆",
+      "en": "Yunnan coffee blend, milk, dark chocolate, chili syrup"
+    },
+    "price": 39.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "轮换；约300–350ml/杯；食用辣椒风味，微辣首测",
+      "en": "Rotating concept; approx. 300–350ml / cup; Food-grade chili flavor; mild heat needs testing"
+    },
+    "status": "rotation",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/L12.svg",
+    "tags": ["Lab"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、黑巧克力、辣椒糖浆呈现辣椒黑巧咖啡的风味构想。",
+      "en": "Chili Chocolate Coffee, composed with Yunnan coffee blend, milk, dark chocolate, chili syrup."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "M01",
+    "name": {
+      "zh": "万般中国·八宝咖啡",
+      "en": "Eight Treasures Coffee"
+    },
+    "main": "Qie.Mix",
+    "sub": "官方固定叠叠乐",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、米乳、桂花糖浆、奶皮子、芝麻麻糍、熟红豆粒、熟血糯米、淡奶油、海盐、黄油薄脆",
+      "en": "Yunnan coffee blend, rice milk, osmanthus syrup, milk skin, sesame mochi, cooked red beans, cooked red glutinous rice, cream, sea salt, butter crisp"
+    },
+    "price": 55.0,
+    "allergens": ["milk", "sesame"],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约400–450ml/杯；糯食用勺",
+      "en": "Launch selection; approx. 400–450ml / cup; Use a spoon for sticky rice ingredients"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约400–450ml/杯",
+      "en": "approx. 400–450ml / cup"
+    },
+    "image": "images/M01.svg",
+    "tags": ["Mix"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、米乳、桂花糖浆、奶皮子、芝麻麻糍、熟红豆粒、熟血糯米、淡奶油、海盐、黄油薄脆呈现万般中国·八宝咖啡的风味构想。",
+      "en": "Eight Treasures Coffee, composed with Yunnan coffee blend, rice milk, osmanthus syrup, milk skin, sesame mochi, cooked red beans, cooked red glutinous rice, cream, sea salt, butter crisp."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "M02",
+    "name": {
+      "zh": "黑金叠叠乐",
+      "en": "Black Gold Stack"
+    },
+    "main": "Qie.Mix",
+    "sub": "官方固定叠叠乐",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、黑芝麻酱、熟血糯米、奶皮子、巧克力脆片、黄油薄脆",
+      "en": "Yunnan coffee blend, milk, black sesame paste, cooked red glutinous rice, milk skin, chocolate shards, butter crisp"
+    },
+    "price": 49.0,
+    "allergens": ["milk", "sesame"],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约400–450ml/杯；糯食用勺",
+      "en": "Launch selection; approx. 400–450ml / cup; Use a spoon for sticky rice ingredients"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约400–450ml/杯",
+      "en": "approx. 400–450ml / cup"
+    },
+    "image": "images/M02.svg",
+    "tags": ["Mix"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、黑芝麻酱、熟血糯米、奶皮子、巧克力脆片、黄油薄脆呈现黑金叠叠乐的风味构想。",
+      "en": "Black Gold Stack, composed with Yunnan coffee blend, milk, black sesame paste, cooked red glutinous rice, milk skin, chocolate shards, butter crisp."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "M03",
+    "name": {
+      "zh": "莓莓茶山脆皮咖啡",
+      "en": "Berry Tea Mountain Crunch"
+    },
+    "main": "Qie.Mix",
+    "sub": "官方固定叠叠乐",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、龙井茶粉、草莓、黑加仑果酱、浓稠酸奶、麻糍、白巧克力",
+      "en": "Yunnan coffee blend, milk, Longjing green tea powder, strawberry, blackcurrant jam, thick yogurt, mochi, white chocolate"
+    },
+    "price": 55.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约400–450ml/杯；糯食用勺",
+      "en": "Launch selection; approx. 400–450ml / cup; Use a spoon for sticky rice ingredients"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约400–450ml/杯",
+      "en": "approx. 400–450ml / cup"
+    },
+    "image": "images/M03.svg",
+    "tags": ["Mix"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、龙井茶粉、草莓、黑加仑果酱、浓稠酸奶、麻糍、白巧克力呈现莓莓茶山脆皮咖啡的风味构想。",
+      "en": "Berry Tea Mountain Crunch, composed with Yunnan coffee blend, milk, Longjing green tea powder, strawberry, blackcurrant jam, thick yogurt, mochi, white chocolate."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "M04",
+    "name": {
+      "zh": "冰糖葫芦咔嚓咖啡",
+      "en": "Tanghulu Crunch Coffee"
+    },
+    "main": "Qie.Mix",
+    "sub": "官方固定叠叠乐",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、山楂果酱、草莓、黑加仑果酱、糖脆片、迷你糖葫芦",
+      "en": "Yunnan coffee blend, hawthorn jam, strawberry, blackcurrant jam, sugar crisp, mini candied hawthorn skewer"
+    },
+    "price": 49.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约400–450ml/杯；糯食用勺",
+      "en": "Launch selection; approx. 400–450ml / cup; Use a spoon for sticky rice ingredients"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约400–450ml/杯",
+      "en": "approx. 400–450ml / cup"
+    },
+    "image": "images/M04.svg",
+    "tags": ["Mix"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、山楂果酱、草莓、黑加仑果酱、糖脆片、迷你糖葫芦呈现冰糖葫芦咔嚓咖啡的风味构想。",
+      "en": "Tanghulu Crunch Coffee, composed with Yunnan coffee blend, hawthorn jam, strawberry, blackcurrant jam, sugar crisp, mini candied hawthorn skewer."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "M05",
+    "name": {
+      "zh": "沪上甜点全家福",
+      "en": "Shanghai Dessert Family"
+    },
+    "main": "Qie.Mix",
+    "sub": "官方固定叠叠乐",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、牛奶、栗子泥、淡奶油、桂花糖浆、红豆麻糍成品、蛋糕碎、蝴蝶酥碎",
+      "en": "Yunnan coffee blend, milk, chestnut purée, cream, osmanthus syrup, red bean mochi, cake crumbs, palmier crumbs"
+    },
+    "price": 55.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；约400–450ml/杯；糯食用勺",
+      "en": "Reserve concept; approx. 400–450ml / cup; Use a spoon for sticky rice ingredients"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "约400–450ml/杯",
+      "en": "approx. 400–450ml / cup"
+    },
+    "image": "images/M05.svg",
+    "tags": ["Mix"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、牛奶、栗子泥、淡奶油、桂花糖浆、红豆麻糍成品、蛋糕碎、蝴蝶酥碎呈现沪上甜点全家福的风味构想。",
+      "en": "Shanghai Dessert Family, composed with Yunnan coffee blend, milk, chestnut purée, cream, osmanthus syrup, red bean mochi, cake crumbs, palmier crumbs."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "M06",
+    "name": {
+      "zh": "紫气东来叠叠乐",
+      "en": "Purple Treasure Stack"
+    },
+    "main": "Qie.Mix",
+    "sub": "官方固定叠叠乐",
+    "ingredients": {
+      "zh": "云南拼配咖啡豆、椰乳、熟紫米、芋泥、奶皮子、麻糍、焦糖脆片",
+      "en": "Yunnan coffee blend, coconut milk, cooked purple rice, taro purée, milk skin, mochi, caramel shards"
+    },
+    "price": 49.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；约400–450ml/杯；糯食用勺",
+      "en": "Reserve concept; approx. 400–450ml / cup; Use a spoon for sticky rice ingredients"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "约400–450ml/杯",
+      "en": "approx. 400–450ml / cup"
+    },
+    "image": "images/M06.svg",
+    "tags": ["Mix"],
+    "description": {
+      "zh": "以云南拼配咖啡豆、椰乳、熟紫米、芋泥、奶皮子、麻糍、焦糖脆片呈现紫气东来叠叠乐的风味构想。",
+      "en": "Purple Treasure Stack, composed with Yunnan coffee blend, coconut milk, cooked purple rice, taro purée, milk skin, mochi, caramel shards."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "D01",
+    "name": {
+      "zh": "蝴蝶酥",
+      "en": "Palmier"
+    },
+    "main": "Shared",
+    "sub": "海派甜点",
+    "ingredients": {
+      "zh": "蝴蝶酥成品",
+      "en": "palmier pastry"
+    },
+    "price": 12.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；45g/份",
+      "en": "Launch selection; 45 g / portion"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "45g/份",
+      "en": "45 g / portion"
+    },
+    "image": "images/D01.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以蝴蝶酥成品呈现蝴蝶酥的风味构想。",
+      "en": "Palmier, composed with palmier pastry."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "D02",
+    "name": {
+      "zh": "迷你条头糕",
+      "en": "Red Bean Rice Roll"
+    },
+    "main": "Shared",
+    "sub": "海派甜点",
+    "ingredients": {
+      "zh": "条头糕成品",
+      "en": "red bean rice cake"
+    },
+    "price": 10.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；55g/份",
+      "en": "Launch selection; 55 g / portion"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "55g/份",
+      "en": "55 g / portion"
+    },
+    "image": "images/D02.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以条头糕成品呈现迷你条头糕的风味构想。",
+      "en": "Red Bean Rice Roll, composed with red bean rice cake."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "D03",
+    "name": {
+      "zh": "桂花糕",
+      "en": "Osmanthus Cake"
+    },
+    "main": "Shared",
+    "sub": "海派甜点",
+    "ingredients": {
+      "zh": "桂花糕成品",
+      "en": "osmanthus cake"
+    },
+    "price": 10.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；50g/份",
+      "en": "Launch selection; 50 g / portion"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "50g/份",
+      "en": "50 g / portion"
+    },
+    "image": "images/D03.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以桂花糕成品呈现桂花糕的风味构想。",
+      "en": "Osmanthus Cake, composed with osmanthus cake."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "D04",
+    "name": {
+      "zh": "栗子小蛋糕",
+      "en": "Chestnut Cake"
+    },
+    "main": "Shared",
+    "sub": "海派甜点",
+    "ingredients": {
+      "zh": "栗子蛋糕成品",
+      "en": "chestnut cake"
+    },
+    "price": 24.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；80g/份",
+      "en": "Launch selection; 80 g / portion"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "80g/份",
+      "en": "80 g / portion"
+    },
+    "image": "images/D04.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以栗子蛋糕成品呈现栗子小蛋糕的风味构想。",
+      "en": "Chestnut Cake, composed with chestnut cake."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "D05",
+    "name": {
+      "zh": "奶油小方",
+      "en": "Cream Sponge Cake"
+    },
+    "main": "Shared",
+    "sub": "海派甜点",
+    "ingredients": {
+      "zh": "奶油小方成品",
+      "en": "cream sponge cake"
+    },
+    "price": 22.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；75g/份",
+      "en": "Launch selection; 75 g / portion"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "75g/份",
+      "en": "75 g / portion"
+    },
+    "image": "images/D05.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以奶油小方成品呈现奶油小方的风味构想。",
+      "en": "Cream Sponge Cake, composed with cream sponge cake."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "D06",
+    "name": {
+      "zh": "芝麻慕斯",
+      "en": "Sesame Mousse"
+    },
+    "main": "Shared",
+    "sub": "海派甜点",
+    "ingredients": {
+      "zh": "芝麻慕斯成品",
+      "en": "sesame mousse"
+    },
+    "price": 22.0,
+    "allergens": ["sesame"],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备/节令；70g/份",
+      "en": "Reserve / seasonal; 70 g / portion"
+    },
+    "status": "concept",
+    "seasonal": true,
+    "spec": {
+      "zh": "70g/份",
+      "en": "70 g / portion"
+    },
+    "image": "images/D06.svg",
+    "tags": ["Shared", "seasonal"],
+    "description": {
+      "zh": "以芝麻慕斯成品呈现芝麻慕斯的风味构想。",
+      "en": "Sesame Mousse, composed with sesame mousse."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "D07",
+    "name": {
+      "zh": "青团",
+      "en": "Qingtuan"
+    },
+    "main": "Shared",
+    "sub": "海派甜点",
+    "ingredients": {
+      "zh": "青团成品",
+      "en": "green glutinous rice dumpling"
+    },
+    "price": 12.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备/节令；65g/份",
+      "en": "Reserve / seasonal; 65 g / portion"
+    },
+    "status": "concept",
+    "seasonal": true,
+    "spec": {
+      "zh": "65g/份",
+      "en": "65 g / portion"
+    },
+    "image": "images/D07.svg",
+    "tags": ["Shared", "seasonal"],
+    "description": {
+      "zh": "以青团成品呈现青团的风味构想。",
+      "en": "Qingtuan, composed with green glutinous rice dumpling."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "D08",
+    "name": {
+      "zh": "绿豆糕",
+      "en": "Mung Bean Cake"
+    },
+    "main": "Shared",
+    "sub": "海派甜点",
+    "ingredients": {
+      "zh": "绿豆糕成品",
+      "en": "mung bean cake"
+    },
+    "price": 12.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备/节令；50g/份",
+      "en": "Reserve / seasonal; 50 g / portion"
+    },
+    "status": "concept",
+    "seasonal": true,
+    "spec": {
+      "zh": "50g/份",
+      "en": "50 g / portion"
+    },
+    "image": "images/D08.svg",
+    "tags": ["Shared", "seasonal"],
+    "description": {
+      "zh": "以绿豆糕成品呈现绿豆糕的风味构想。",
+      "en": "Mung Bean Cake, composed with mung bean cake."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "D09",
+    "name": {
+      "zh": "酒酿小甜品",
+      "en": "Sweet Rice Dessert"
+    },
+    "main": "Shared",
+    "sub": "海派甜点",
+    "ingredients": {
+      "zh": "酒酿甜品成品",
+      "en": "fermented rice dessert"
+    },
+    "price": 18.0,
+    "allergens": [],
+    "alcohol": true,
+    "notes": {
+      "zh": "储备/节令；100g/份",
+      "en": "Reserve / seasonal; 100 g / portion"
+    },
+    "status": "concept",
+    "seasonal": true,
+    "spec": {
+      "zh": "100g/份",
+      "en": "100 g / portion"
+    },
+    "image": "images/D09.svg",
+    "tags": ["Shared", "seasonal"],
+    "description": {
+      "zh": "以酒酿甜品成品呈现酒酿小甜品的风味构想。",
+      "en": "Sweet Rice Dessert, composed with fermented rice dessert."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "D10",
+    "name": {
+      "zh": "鲜肉月饼",
+      "en": "Savory Mooncake"
+    },
+    "main": "Shared",
+    "sub": "海派甜点",
+    "ingredients": {
+      "zh": "鲜肉月饼成品",
+      "en": "pork mooncake"
+    },
+    "price": 15.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备/节令；75g/份",
+      "en": "Reserve / seasonal; 75 g / portion"
+    },
+    "status": "concept",
+    "seasonal": true,
+    "spec": {
+      "zh": "75g/份",
+      "en": "75 g / portion"
+    },
+    "image": "images/D10.svg",
+    "tags": ["Shared", "seasonal"],
+    "description": {
+      "zh": "以鲜肉月饼成品呈现鲜肉月饼的风味构想。",
+      "en": "Savory Mooncake, composed with pork mooncake."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "D11",
+    "name": {
+      "zh": "红豆麻糍",
+      "en": "Red Bean Mochi"
+    },
+    "main": "Shared",
+    "sub": "海派甜点",
+    "ingredients": {
+      "zh": "红豆麻糍成品",
+      "en": "red bean mochi"
+    },
+    "price": 12.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备/节令；60g/份",
+      "en": "Reserve / seasonal; 60 g / portion"
+    },
+    "status": "concept",
+    "seasonal": true,
+    "spec": {
+      "zh": "60g/份",
+      "en": "60 g / portion"
+    },
+    "image": "images/D11.svg",
+    "tags": ["Shared", "seasonal"],
+    "description": {
+      "zh": "以红豆麻糍成品呈现红豆麻糍的风味构想。",
+      "en": "Red Bean Mochi, composed with red bean mochi."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "N01",
+    "name": {
+      "zh": "桂花米乳",
+      "en": "Osmanthus Rice Milk"
+    },
+    "main": "Shared",
+    "sub": "非咖啡饮品",
+    "ingredients": {
+      "zh": "米乳、桂花糖浆、干桂花",
+      "en": "rice milk, osmanthus syrup, dried osmanthus flowers"
+    },
+    "price": 25.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约300–350ml/杯",
+      "en": "Launch selection; approx. 300–350ml / cup"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/N01.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以米乳、桂花糖浆、干桂花呈现桂花米乳的风味构想。",
+      "en": "Osmanthus Rice Milk, composed with rice milk, osmanthus syrup, dried osmanthus flowers."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": []
+  },
+  {
+    "id": "N02",
+    "name": {
+      "zh": "龙井牛乳",
+      "en": "Longjing Milk"
+    },
+    "main": "Shared",
+    "sub": "非咖啡饮品",
+    "ingredients": {
+      "zh": "牛奶、龙井茶粉、白砂糖",
+      "en": "milk, Longjing green tea powder, sugar"
+    },
+    "price": 28.0,
+    "allergens": ["milk"],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；约300–350ml/杯",
+      "en": "Reserve concept; approx. 300–350ml / cup"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/N02.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以牛奶、龙井茶粉、白砂糖呈现龙井牛乳的风味构想。",
+      "en": "Longjing Milk, composed with milk, Longjing green tea powder, sugar."
+    },
+    "temperature": ["hot", "iced"],
+    "sweetness": ["standard", "less"]
+  },
+  {
+    "id": "N03",
+    "name": {
+      "zh": "山楂陈皮气泡饮",
+      "en": "Hawthorn Citrus Sparkler"
+    },
+    "main": "Shared",
+    "sub": "非咖啡饮品",
+    "ingredients": {
+      "zh": "山楂果酱、陈皮糖浆、气泡水",
+      "en": "hawthorn jam, aged tangerine peel syrup, sparkling water"
+    },
+    "price": 28.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；约300–350ml/杯",
+      "en": "Launch selection; approx. 300–350ml / cup"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "约300–350ml/杯",
+      "en": "approx. 300–350ml / cup"
+    },
+    "image": "images/N03.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以山楂果酱、陈皮糖浆、气泡水呈现山楂陈皮气泡饮的风味构想。",
+      "en": "Hawthorn Citrus Sparkler, composed with hawthorn jam, aged tangerine peel syrup, sparkling water."
+    },
+    "temperature": ["iced"],
+    "sweetness": []
+  },
+  {
+    "id": "S01",
+    "name": {
+      "zh": "经典上海套餐",
+      "en": "Classic Shanghai Set"
+    },
+    "main": "Shared",
+    "sub": "特色体验套餐",
+    "ingredients": {
+      "zh": "桂花拿铁＋蝴蝶酥＋双语故事卡",
+      "en": "Osmanthus Latte + Palmier + bilingual story card"
+    },
+    "price": 39.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；1杯+1点心",
+      "en": "Launch selection; 1 cup + 1 pastry"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "1杯+1点心",
+      "en": "1 cup + 1 pastry"
+    },
+    "image": "images/S01.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以桂花拿铁＋蝴蝶酥＋双语故事卡呈现经典上海套餐的风味构想。",
+      "en": "Classic Shanghai Set, composed with Osmanthus Latte + Palmier + bilingual story card."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "S02",
+    "name": {
+      "zh": "奇味挑战套餐",
+      "en": "Dare to Sip Flight"
+    },
+    "main": "Shared",
+    "sub": "特色体验套餐",
+    "ingredients": {
+      "zh": "葱油拌面拿铁＋花椒黑巧咖啡＋陈醋山楂气泡咖啡（各迷你杯）",
+      "en": "Scallion Oil Latte + Sichuan Pepper Chocolate Coffee + Vinegar Hawthorn Sparkling Coffee (mini cups each)"
+    },
+    "price": 49.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "轮换；3×约90ml",
+      "en": "Rotating concept; 3 × approx. 90 ml"
+    },
+    "status": "rotation",
+    "seasonal": false,
+    "spec": {
+      "zh": "3×约90ml",
+      "en": "3 × approx. 90 ml"
+    },
+    "image": "images/S02.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以葱油拌面拿铁＋花椒黑巧咖啡＋陈醋山楂气泡咖啡（各迷你杯）呈现奇味挑战套餐的风味构想。",
+      "en": "Dare to Sip Flight, composed with Scallion Oil Latte + Sichuan Pepper Chocolate Coffee + Vinegar Hawthorn Sparkling Coffee (mini cups each)."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "S03",
+    "name": {
+      "zh": "叠叠乐体验套餐（固定示例）",
+      "en": "Stack Experience Set"
+    },
+    "main": "Shared",
+    "sub": "特色体验套餐",
+    "ingredients": {
+      "zh": "黑金叠叠乐＋桂花糕＋DIY配方卡（固定示例）",
+      "en": "Black Gold Stack + Osmanthus Cake + DIY recipe card (fixed example)"
+    },
+    "price": 65.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；1大杯+1点心",
+      "en": "Launch selection; 1 large cup + 1 pastry"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "1大杯+1点心",
+      "en": "1 large cup + 1 pastry"
+    },
+    "image": "images/S03.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以黑金叠叠乐＋桂花糕＋DIY配方卡（固定示例）呈现叠叠乐体验套餐（固定示例）的风味构想。",
+      "en": "Stack Experience Set, composed with Black Gold Stack + Osmanthus Cake + DIY recipe card (fixed example)."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "S04",
+    "name": {
+      "zh": "万般中国体验套餐",
+      "en": "China Tasting Flight"
+    },
+    "main": "Shared",
+    "sub": "特色体验套餐",
+    "ingredients": {
+      "zh": "桂花拿铁＋蝴蝶酥碎碎拿铁＋黑金叠叠乐（各迷你杯）＋桂花糕、条头糕、蝴蝶酥",
+      "en": "Osmanthus Latte + Palmier Crunch Latte + Black Gold Stack (mini cups each) + Osmanthus Cake, red bean rice cake, Palmier"
+    },
+    "price": 79.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；3×约90ml+3迷你点心",
+      "en": "Launch selection; 3 × approx. 90 ml + 3 mini pastries"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "3×约90ml+3迷你点心",
+      "en": "3 × approx. 90 ml + 3 mini pastries"
+    },
+    "image": "images/S04.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以桂花拿铁＋蝴蝶酥碎碎拿铁＋黑金叠叠乐（各迷你杯）＋桂花糕、条头糕、蝴蝶酥呈现万般中国体验套餐的风味构想。",
+      "en": "China Tasting Flight, composed with Osmanthus Latte + Palmier Crunch Latte + Black Gold Stack (mini cups each) + Osmanthus Cake, red bean rice cake, Palmier."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "S05",
+    "name": {
+      "zh": "沪上双人茶歇",
+      "en": "Shanghai Tea Break for Two"
+    },
+    "main": "Shared",
+    "sub": "特色体验套餐",
+    "ingredients": {
+      "zh": "桂花拿铁＋蝴蝶酥碎碎拿铁＋蝴蝶酥、条头糕、桂花糕、栗子蛋糕",
+      "en": "Osmanthus Latte + Palmier Crunch Latte + Palmier, red bean rice cake, Osmanthus Cake, chestnut cake"
+    },
+    "price": 108.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；2杯+4迷你点心",
+      "en": "Reserve concept; 2 cups + 4 mini pastries"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "2杯+4迷你点心",
+      "en": "2 cups + 4 mini pastries"
+    },
+    "image": "images/S05.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以桂花拿铁＋蝴蝶酥碎碎拿铁＋蝴蝶酥、条头糕、桂花糕、栗子蛋糕呈现沪上双人茶歇的风味构想。",
+      "en": "Shanghai Tea Break for Two, composed with Osmanthus Latte + Palmier Crunch Latte + Palmier, red bean rice cake, Osmanthus Cake, chestnut cake."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "S06",
+    "name": {
+      "zh": "风土探索",
+      "en": "Yunnan Origin Flight"
+    },
+    "main": "Shared",
+    "sub": "特色体验套餐",
+    "ingredients": {
+      "zh": "云南单一产地手冲＋云南美式＋云南冷萃（各迷你杯）",
+      "en": "Yunnan Pour-over + Yunnan Americano + Yunnan Cold Brew (mini cups each)"
+    },
+    "price": 68.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；3×约90ml",
+      "en": "Reserve concept; 3 × approx. 90 ml"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "3×约90ml",
+      "en": "3 × approx. 90 ml"
+    },
+    "image": "images/S06.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以云南单一产地手冲＋云南美式＋云南冷萃（各迷你杯）呈现风土探索的风味构想。",
+      "en": "Yunnan Origin Flight, composed with Yunnan Pour-over + Yunnan Americano + Yunnan Cold Brew (mini cups each)."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "S07",
+    "name": {
+      "zh": "无咖啡同行",
+      "en": "Coffee-free Companion"
+    },
+    "main": "Shared",
+    "sub": "特色体验套餐",
+    "ingredients": {
+      "zh": "桂花米乳＋蝴蝶酥＋桂花糕",
+      "en": "Osmanthus Rice Milk + Palmier + Osmanthus Cake"
+    },
+    "price": 45.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；1杯+2迷你点心",
+      "en": "Launch selection; 1 cup + 2 mini pastries"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "1杯+2迷你点心",
+      "en": "1 cup + 2 mini pastries"
+    },
+    "image": "images/S07.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以桂花米乳＋蝴蝶酥＋桂花糕呈现无咖啡同行的风味构想。",
+      "en": "Coffee-free Companion, composed with Osmanthus Rice Milk + Palmier + Osmanthus Cake."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "G01",
+    "name": {
+      "zh": "上海风味挂耳咖啡礼盒",
+      "en": "Shanghai Drip Coffee Gift Box"
+    },
+    "main": "Shared",
+    "sub": "文创与旅游伴手礼",
+    "ingredients": {
+      "zh": "挂耳咖啡成品、礼盒外包装、双语故事卡",
+      "en": "drip coffee bags, gift box, bilingual story card"
+    },
+    "price": 69.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；1件/套",
+      "en": "Launch selection; 1 item / set"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "1件/套",
+      "en": "1 item / set"
+    },
+    "image": "images/G01.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以挂耳咖啡成品、礼盒外包装、双语故事卡呈现上海风味挂耳咖啡礼盒的风味构想。",
+      "en": "Shanghai Drip Coffee Gift Box, composed with drip coffee bags, gift box, bilingual story card."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "G02",
+    "name": {
+      "zh": "海派下午茶伴手礼",
+      "en": "Shanghai Afternoon Tea Gift"
+    },
+    "main": "Shared",
+    "sub": "文创与旅游伴手礼",
+    "ingredients": {
+      "zh": "挂耳咖啡成品、蝴蝶酥成品、礼盒外包装、双语故事卡、点心袋/盒",
+      "en": "drip coffee bags, palmier pastry, gift box, bilingual story card, pastry packaging"
+    },
+    "price": 89.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；1件/套",
+      "en": "Launch selection; 1 item / set"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "1件/套",
+      "en": "1 item / set"
+    },
+    "image": "images/G02.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以挂耳咖啡成品、蝴蝶酥成品、礼盒外包装、双语故事卡、点心袋/盒呈现海派下午茶伴手礼的风味构想。",
+      "en": "Shanghai Afternoon Tea Gift, composed with drip coffee bags, palmier pastry, gift box, bilingual story card, pastry packaging."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "G03",
+    "name": {
+      "zh": "城市咖啡杯",
+      "en": "Shanghai Coffee Mug"
+    },
+    "main": "Shared",
+    "sub": "文创与旅游伴手礼",
+    "ingredients": {
+      "zh": "陶瓷咖啡杯成品、礼盒外包装",
+      "en": "ceramic coffee cup, gift box"
+    },
+    "price": 59.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；1件/套",
+      "en": "Reserve concept; 1 item / set"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "1件/套",
+      "en": "1 item / set"
+    },
+    "image": "images/G03.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以陶瓷咖啡杯成品、礼盒外包装呈现城市咖啡杯的风味构想。",
+      "en": "Shanghai Coffee Mug, composed with ceramic coffee cup, gift box."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "G04",
+    "name": {
+      "zh": "沪上咖啡护照",
+      "en": "Shanghai Coffee Passport"
+    },
+    "main": "Shared",
+    "sub": "文创与旅游伴手礼",
+    "ingredients": {
+      "zh": "城市咖啡护照成品",
+      "en": "city coffee passport"
+    },
+    "price": 25.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "首期；1件/套",
+      "en": "Launch selection; 1 item / set"
+    },
+    "status": "available",
+    "seasonal": false,
+    "spec": {
+      "zh": "1件/套",
+      "en": "1 item / set"
+    },
+    "image": "images/G04.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以城市咖啡护照成品呈现沪上咖啡护照的风味构想。",
+      "en": "Shanghai Coffee Passport, composed with city coffee passport."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "G05",
+    "name": {
+      "zh": "城市明信片",
+      "en": "Shanghai Postcard"
+    },
+    "main": "Shared",
+    "sub": "文创与旅游伴手礼",
+    "ingredients": {
+      "zh": "城市明信片",
+      "en": "Shanghai Postcard"
+    },
+    "price": 8.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；1件/套",
+      "en": "Reserve concept; 1 item / set"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "1件/套",
+      "en": "1 item / set"
+    },
+    "image": "images/G05.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以城市明信片呈现城市明信片的风味构想。",
+      "en": "Shanghai Postcard, composed with Shanghai Postcard."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "G06",
+    "name": {
+      "zh": "海派杯垫",
+      "en": "Shanghai Coaster"
+    },
+    "main": "Shared",
+    "sub": "文创与旅游伴手礼",
+    "ingredients": {
+      "zh": "杯垫成品",
+      "en": "coaster"
+    },
+    "price": 18.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；1件/套",
+      "en": "Reserve concept; 1 item / set"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "1件/套",
+      "en": "1 item / set"
+    },
+    "image": "images/G06.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以杯垫成品呈现海派杯垫的风味构想。",
+      "en": "Shanghai Coaster, composed with coaster."
+    },
+    "temperature": [],
+    "sweetness": []
+  },
+  {
+    "id": "G07",
+    "name": {
+      "zh": "品牌手提袋",
+      "en": "Qie Tote Bag"
+    },
+    "main": "Shared",
+    "sub": "文创与旅游伴手礼",
+    "ingredients": {
+      "zh": "手提袋成品",
+      "en": "tote bag"
+    },
+    "price": 39.0,
+    "allergens": [],
+    "alcohol": false,
+    "notes": {
+      "zh": "储备；1件/套",
+      "en": "Reserve concept; 1 item / set"
+    },
+    "status": "concept",
+    "seasonal": false,
+    "spec": {
+      "zh": "1件/套",
+      "en": "1 item / set"
+    },
+    "image": "images/G07.svg",
+    "tags": ["Shared"],
+    "description": {
+      "zh": "以手提袋成品呈现品牌手提袋的风味构想。",
+      "en": "Qie Tote Bag, composed with tote bag."
+    },
+    "temperature": [],
+    "sweetness": []
+  }
+]
